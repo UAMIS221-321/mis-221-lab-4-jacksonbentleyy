@@ -118,7 +118,7 @@ static string CheeseOrPepperoniGenerator() //decides with a 1:6 ratio whether th
     string cheeseOrPepperoni;
     if (cheeseOrPepperoniChance <= 1)
     {
-        cheeseOrPepperoni = "O";
+        cheeseOrPepperoni = "O"; //changed "[]" to "O" because it looks more like pepperoni and fits better 
     }
     else
     {
